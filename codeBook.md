@@ -13,10 +13,8 @@ Variable names from the features.txt file have been modified with the following 
 * ```varNames <- gsub("[^A-Za-z|0-9]","",x=vars$V2)```,
 which substitutes everything that is not a number nor letter with an empty space.
 
----
-|Example:|
-|Before|After|
----
-|tBodyAcc-mean()-X|tBodyAccmeanX|
-| tBodyAcc-mean()-Y|tBodyAccmeanY| 
-|tBodyAcc-mean()-Z|tBodyAccmeanZ|
+## Example
+Before|After
+tBodyAcc-mean()-X|tBodyAccmeanX|
+tBodyAcc-mean()-Y|tBodyAccmeanY| 
+tBodyAcc-mean()-Z|tBodyAccmeanZ|
