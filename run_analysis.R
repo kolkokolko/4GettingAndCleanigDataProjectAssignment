@@ -34,7 +34,7 @@ activities<-read.csv("../../UCI HAR Dataset/activity_labels.txt",sep="",header =
 vars<- read.csv("../../UCI HAR Dataset/features.txt",sep="",header = FALSE)
 varNames <- gsub("[^A-Za-z|0-9]","",x=vars$V2) # replaces evrything that is not a number nor letter
 
-### COMBINE DATA
+### COMBINE  TRAIN AND TEST DATA
 train <- cbind(subjectTrain,YTrain,XTrain)
 test <- cbind(subjectTest,YTest,XTest)
 dataSet<-rbind(train,test)
