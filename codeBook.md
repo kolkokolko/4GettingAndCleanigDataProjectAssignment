@@ -7,7 +7,7 @@ There are 563 variables.
 3. The rest of the variables from 3-563 are the same used in the *features.txt* file.
 
 
-#Variable Names Modification
+# Variable Names Modification
 
 Variable names from the features.txt file have been modified with the following R command:
 ```varNames <- gsub("[^A-Za-z|0-9]","",x=vars$V2)```, which substitutes everything that is not a number nor letter with an empty space.
