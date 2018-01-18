@@ -1,3 +1,8 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
 # Variables
 
 There are 563 variables.
@@ -8,10 +13,10 @@ There are 563 variables.
 
 #Variable Names Modification
 
-Variable names from the *features.txt* file have been modified with the following R command:
-*varNames <- gsub("[^A-Za-z|0-9]","",x=vars$V2)* which substitutes everything that is not a number nor letter with an empty space.
+Variable names from the _*features.txt*_ file have been modified with the following R command:
+_*```varNames <- gsub("[^A-Za-z|0-9]","",x=vars$V2)```*_, which substitutes everything that is not a number nor letter with an empty space.
 ---
-before|after
+Before: "Untitled"
+After: tBodyAccmeanX| tBodyAccmeanY| tBodyAccmeanZ
 ---
-
 
