@@ -16,6 +16,7 @@ which substitutes everything that is not a number nor letter with an empty space
 ## Example
 
 Before|After
+------|------
 tBodyAcc-mean()-X|tBodyAccmeanX
 tBodyAcc-mean()-Y|tBodyAccmeanY 
 tBodyAcc-mean()-Z|tBodyAccmeanZ
